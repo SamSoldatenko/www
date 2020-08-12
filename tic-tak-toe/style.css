@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+input{
+    position: absolute;
+    top: -300px;
+}
+input:checked::after{
+    content: "X";
+    color: red;
+    font-size: 70px;
+    font-weight: 500;
+    position: absolute;
+    top:290px;
+    left: 3px;
+}
+input.nolik:checked::after{
+    content: "O";
+    color: blue;
+    font-size: 70px;
+    font-weight: 500;
+    position: absolute;
+    top:290px;
+    left: 3px;
+}
+label{
+    width: 80px;
+    height: 80px;
+    display: block;
+}

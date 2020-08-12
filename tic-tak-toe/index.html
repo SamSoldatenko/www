@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-tac-toe</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="jquery-3.3.1.min.js"></script> -->
+    <script type="application/javascript" src="tic-tak-toe.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <td><label><input type="checkbox" onchange="onSetFigure(0, 0, event)"></label></td>
+        <td><label><input type="checkbox" onchange="onSetFigure(1, 0, event)"></label></td>
+        <td><label><input type="checkbox" onchange="onSetFigure(2, 0, event)"></label></td>
+    </tr>
+    <tr>
+        <td><label><input type="checkbox" onchange="onSetFigure(0, 1, event)"></label></td>
+        <td><label><input type="checkbox" onchange="onSetFigure(1, 1, event)"></label></td>
+        <td><label><input type="checkbox" onchange="onSetFigure(2, 1, event)"></label></td>
+    </tr>
+    <tr>
+        <td><label><input type="checkbox" onchange="onSetFigure(0, 2, event)"></label></td>
+        <td><label><input type="checkbox" onchange="onSetFigure(1, 2, event)"></label></td>
+        <td><label><input type="checkbox" onchange="onSetFigure(2, 2, event)"></label></td>
+    </tr>
+</table>
+</body>
+</html>
